@@ -6,6 +6,7 @@ import {ManageUsersService} from "../../../shared/services/manage-users.service"
 import {ConnectionContentComponent} from "./connection-content.component";
 import { FormsModule } from '@angular/forms';
 import {ForgotPwdModule} from "../forgot-pwd/forgot-pwd.module";
+import {VerificationPwdComponent} from "../verification-pwd/verification-pwd.component";
 
 @NgModule({
   imports: [CommonModule, FormsModule],
