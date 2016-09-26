@@ -2,7 +2,7 @@
 import {Injectable} from '@angular/core';
 import {Http, Response, Headers, RequestOptions} from "@angular/http";
 import 'rxjs/add/operator/toPromise';
-import {UserComponent} from "../../../components/models/user/user.component";
+import {UserComponent} from "../../components/models/user/user.component";
 
 
 /**

@@ -17,8 +17,7 @@ import {ManageUsersService} from "../../../shared/services/manage-users.service"
     moduleId: module.id,
     templateUrl: './connection-content.component.html',
     styleUrls : ['./connection-content.component.scss'],
-    providers: [ManageUsersService],
-    directives: [LogInComponent, ChangePwdComponent, ForgotPwdComponent, ConfirmationEmailSentComponent]
+    providers: [ManageUsersService]
 })
 
 export class ConnectionContentComponent {

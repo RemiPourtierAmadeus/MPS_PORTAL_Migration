@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Output, Input} from '@angular/core';
-import {ROUTER_DIRECTIVES} from "@angular/router-deprecated";
 
 /**
  * Component HeaderComponent
@@ -9,10 +8,7 @@ import {ROUTER_DIRECTIVES} from "@angular/router-deprecated";
     selector: 'header',
     moduleId: module.id,
     templateUrl: './header.component.html',
-    styleUrls : ['./header.component.css'],
-    directives : [
-        ROUTER_DIRECTIVES
-    ]
+    styleUrls : ['./header.component.css']
 })
 export class HeaderComponent {
 

@@ -3,8 +3,8 @@
  */
 
 import {Component, EventEmitter, Output,Input} from '@angular/core';
-import {ManageUsersService} from "../../../shared/services/src/manage-users.service";
 import {UserComponent} from "../../models/user/user.component";
+import {ManageUsersService} from "../../../shared/services/manage-users.service";
 
 @Component({
     selector: 'change-pwd',
