@@ -10,7 +10,7 @@ import {HeaderComponent} from "../../header/header.component";
 import {ConfirmationEmailSentComponent} from "../confirmation-email-sent/confirmation-email-sent.component";
 import {Output} from "@angular/core";
 import {UserComponent} from "../../models/user/user.component";
-import {ManageUsersService} from "../../../shared/services/src/manage-users.service";
+import {ManageUsersService} from "../../../shared/services/manage-users.service";
 
 @Component({
     selector: 'connection-content',
@@ -32,7 +32,6 @@ export class ConnectionContentComponent {
     private subjectEmail;
     private emailCopy;
     public emailContent;
-
 
     @Output() redirectHomePage= new EventEmitter<number>();
     /**

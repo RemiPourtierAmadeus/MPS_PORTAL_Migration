@@ -8,7 +8,7 @@ import {Component} from '@angular/core';
     selector: 'verification-pwd',
     moduleId: module.id,
     templateUrl: './verification-pwd.component.html',
-    styleUrls : ['./verification-pwd.component.css']
+    styleUrls : ['./verification-pwd.component.scss']
 })
 export class VerificationPwdComponent {
 

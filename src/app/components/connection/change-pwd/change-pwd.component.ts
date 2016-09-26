@@ -10,7 +10,7 @@ import {UserComponent} from "../../models/user/user.component";
     selector: 'change-pwd',
     moduleId: module.id,
     templateUrl: './change-pwd.component.html',
-    styleUrls : ['./change-pwd.component.css']
+    styleUrls : ['./change-pwd.component.scss']
 })
 
 export class ChangePwdComponent {

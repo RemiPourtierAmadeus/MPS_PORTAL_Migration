@@ -11,7 +11,7 @@ import {UserComponent} from "../../models/user/user.component";
     selector: 'confirmation-email-sent',
     moduleId: module.id,
     templateUrl: './confirmation-email-sent.component.html',
-    styleUrls : ['./confirmation-email-sent.component.css']
+    styleUrls : ['./confirmation-email-sent.component.scss']
 })
 export class ConfirmationEmailSentComponent {
 

@@ -5,13 +5,13 @@
 import {Component, EventEmitter, Output} from '@angular/core';
 import {Input} from "@angular/core";
 import {UserComponent} from "../../models/user/user.component";
-import {ManageUsersService} from "../../../shared/services/src/manage-users.service";
+import {ManageUsersService} from "../../../shared/services/manage-users.service";
 
 @Component({
     selector: 'forgot-pwd',
     moduleId: module.id,
     templateUrl: './forgot-pwd.component.html',
-    styleUrls : ['./forgot-pwd.component.css']
+    styleUrls : ['./forgot-pwd.component.scss']
 })
 export class ForgotPwdComponent {
 

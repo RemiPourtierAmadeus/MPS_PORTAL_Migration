@@ -7,13 +7,13 @@ import {ConnectionContentComponent} from "../connection-content/connection-conte
 import {Output} from "@angular/core";
 import {Input} from "@angular/core";
 import {UserComponent} from "../../models/user/user.component";
-import {ManageUsersService} from "../../../shared/services/src/manage-users.service";
+import {ManageUsersService} from "../../../shared/services/manage-users.service";
 
 @Component({
     selector: 'log-in',
     moduleId: module.id,
     templateUrl: './log-in.component.html',
-    styleUrls: ['./log-in.component.css'],
+    styleUrls: ['./log-in.component.scss'],
     providers: [ManageUsersService]
 })
 

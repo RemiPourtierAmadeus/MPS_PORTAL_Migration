@@ -12,5 +12,5 @@ export class ManageMetricsService {
     getMetricsItem(){
         return Promise.resolve(METRICSITEM);
     }
-  
+
 }
