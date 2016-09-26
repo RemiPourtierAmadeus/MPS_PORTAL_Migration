@@ -8,7 +8,6 @@ import {ManageUsersService} from "../../../shared/services/manage-users.service"
 
 @Component({
     selector: 'change-pwd',
-    moduleId: module.id,
     templateUrl: './change-pwd.component.html',
     styleUrls : ['./change-pwd.component.scss']
 })

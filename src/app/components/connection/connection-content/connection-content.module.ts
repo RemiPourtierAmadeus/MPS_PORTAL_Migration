@@ -9,8 +9,11 @@ import {ForgotPwdModule} from "../forgot-pwd/forgot-pwd.module";
 
 @NgModule({
   imports: [CommonModule, FormsModule],
-  declarations: [ConnectionContentComponent, LogInComponent, ConfirmationEmailSentComponent,
-    ForgotPwdComponent],
+  declarations: [ConnectionContentComponent,
+    LogInComponent,
+    ConfirmationEmailSentComponent,
+    ForgotPwdComponent,
+    ChangePwdComponent],
   exports: [ConnectionContentComponent],
   providers: [ManageUsersService]
 })
