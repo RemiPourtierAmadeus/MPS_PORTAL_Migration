@@ -2,19 +2,15 @@
  * Component LogInComponent
  */
 
-import {Component, EventEmitter} from '@angular/core';
-import {ConnectionContentComponent} from "../connection-content/connection-content.component";
-import {Output} from "@angular/core";
-import {Input} from "@angular/core";
+import {Component, EventEmitter, Input, Output} from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import {UserComponent} from "../../models/user/user.component";
 import {ManageUsersService} from "../../../shared/services/manage-users.service";
 
 @Component({
     selector: 'log-in',
-    moduleId: module.id,
     templateUrl: './log-in.component.html',
-    styleUrls: ['./log-in.component.scss'],
-    providers: [ManageUsersService]
+    styleUrls: ['./log-in.component.scss']
 })
 
 export class LogInComponent{

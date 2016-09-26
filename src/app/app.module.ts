@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {ConnectionContentComponent} from "./components/connection/connection-content/connection-content.component";
+import {ConnectionContentModule} from "./components/connection/connection-content/connection-content.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import {ConnectionContentComponent} from "./components/connection/connection-con
     BrowserModule,
     FormsModule,
     HttpModule,
-    ConnectionContentComponent
+    ConnectionContentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
