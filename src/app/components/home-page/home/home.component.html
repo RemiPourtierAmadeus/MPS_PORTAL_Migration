@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="row ">
+        <div class="title row"><h1>Metrics & Performance Portal</h1></div>
+        <div class="row">
+            <div class="metrics large-5 large-offset-1 column">
+                <metrics-panel (openMetrics)="openPage($event)" showDescription></metrics-panel>
+            </div>
+            <div class="performance large-5  column end">
+                <performance-panel></performance-panel>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="metrics large-10 large-offset-1 columns end">
+                <news-panel
+                        (pageToOpen)="openPage($event)"
+                ></news-panel>
+            </div>
+        </div>
+    </div>
+</div>
