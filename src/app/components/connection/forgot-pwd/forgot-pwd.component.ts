@@ -9,7 +9,6 @@ import {ManageUsersService} from "../../../shared/services/manage-users.service"
 
 @Component({
     selector: 'forgot-pwd',
-    moduleId: module.id,
     templateUrl: './forgot-pwd.component.html',
     styleUrls : ['./forgot-pwd.component.scss']
 })

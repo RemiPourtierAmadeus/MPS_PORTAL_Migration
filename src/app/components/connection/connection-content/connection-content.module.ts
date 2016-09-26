@@ -5,10 +5,12 @@ import {LogInComponent, ChangePwdComponent,
 import {ManageUsersService} from "../../../shared/services/manage-users.service";
 import {ConnectionContentComponent} from "./connection-content.component";
 import { FormsModule } from '@angular/forms';
+import {ForgotPwdModule} from "../forgot-pwd/forgot-pwd.module";
 
 @NgModule({
   imports: [CommonModule, FormsModule],
-  declarations: [ConnectionContentComponent, LogInComponent, ConfirmationEmailSentComponent],
+  declarations: [ConnectionContentComponent, LogInComponent, ConfirmationEmailSentComponent,
+    ForgotPwdComponent],
   exports: [ConnectionContentComponent],
   providers: [ManageUsersService]
 })
