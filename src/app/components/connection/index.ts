@@ -12,4 +12,4 @@ export * from './log-in/log-in.module';
 export * from './verification-pwd/verification-pwd.component';
 //export * from './verification-pwd/verification-pwd.module';
 export * from './confirmation-email-sent/confirmation-email-sent.component';
-//export * from './confirmation-email-sent/confirmation-email-sent.module';
+export * from './confirmation-email-sent/confirmation-email-sent.module';

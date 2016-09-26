@@ -26,7 +26,7 @@ export class ConnectionContentComponent {
   public emailContent;
 
 
-    @Output() redirectHomePage = new EventEmitter<number>();
+  @Output() redirectHomePage = new EventEmitter<number>();
   /**
    * Current page value contains the following variable: 1,2,3
    * Each number corresponds to a component:

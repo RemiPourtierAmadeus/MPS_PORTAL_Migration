@@ -9,7 +9,6 @@ import {UserComponent} from "../../models/user/user.component";
 
 @Component({
     selector: 'confirmation-email-sent',
-    moduleId: module.id,
     templateUrl: './confirmation-email-sent.component.html',
     styleUrls : ['./confirmation-email-sent.component.scss']
 })

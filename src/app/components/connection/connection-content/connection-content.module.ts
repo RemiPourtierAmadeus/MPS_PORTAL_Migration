@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
-  declarations: [ConnectionContentComponent, LogInComponent],
+  declarations: [ConnectionContentComponent, LogInComponent, ConfirmationEmailSentComponent],
   exports: [ConnectionContentComponent],
   providers: [ManageUsersService]
 })
