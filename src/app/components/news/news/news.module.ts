@@ -8,7 +8,7 @@ import {HeaderModule, HeaderComponent} from "../../header/index";
 
 @NgModule({
   imports: [MyCommonModule],
-  declarations: [NewsComponent, HeaderComponent, NewsFormComponent],
+  declarations: [NewsComponent, HeaderComponent, NewsFormComponent, NewsFilterComponent],
   exports: [NewsComponent],
   providers : [ManageNewsService, NewsConstantService]
 })
