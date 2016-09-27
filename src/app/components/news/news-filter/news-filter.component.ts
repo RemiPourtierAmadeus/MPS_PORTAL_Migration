@@ -12,7 +12,7 @@ import {Output} from "@angular/core";
     selector: 'news-filter',
     moduleId: module.id,
     templateUrl: './news-filter.component.html',
-    styleUrls : ['./news-filter.component.css'],
+    styleUrls : ['./news-filter.component.scss'],
     providers: [NewsConstantService]
 })
 export class NewsFilterComponent {

@@ -15,7 +15,7 @@ import {NewsConstantService} from "../../../shared/services/news-constant.servic
     providers: [
         NewsConstantService
     ],
-    styleUrls : ['./news-form.component.css']
+    styleUrls : ['./news-form.component.scss']
 })
 export class NewsFormComponent {
 

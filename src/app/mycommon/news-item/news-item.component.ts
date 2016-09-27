@@ -3,24 +3,18 @@
  */
 
 import {Component} from '@angular/core';
-import {NewsModelComponent} from "../../models/news-model/news-model.component";
 import {Input} from "@angular/core";
 import {Output} from "@angular/core";
 import {EventEmitter} from "@angular/core";
-import {NewsFormComponent} from "../news-form/news-form.component";
-import {ManageNewsService} from "../../../shared/services/manage-news.service";
-import {NewsConstantService} from "../../../shared/services/news-constant.service";
+import {NewsModelComponent} from "../../components/models/news-model/news-model.component";
+import {ManageNewsService} from "../../shared/services/manage-news.service";
+import {NewsConstantService} from "../../shared/services/news-constant.service";
 
 
 @Component({
     selector: 'news-item',
-    moduleId: module.id,
     templateUrl: './news-item.component.html',
-    directives: [NewsFormComponent],
-    providers: [ManageNewsService,
-        NewsConstantService
-    ],
-    styleUrls: ['./news-item.component.css']
+    styleUrls: ['./news-item.component.scss']
 })
 export class NewsItemComponent {
 

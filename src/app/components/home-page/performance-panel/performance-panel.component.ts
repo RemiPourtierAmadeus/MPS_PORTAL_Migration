@@ -6,8 +6,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'performance-panel',
-    moduleId: module.id,
     templateUrl: './performance-panel.component.html',
-    styleUrls : ['./performance-panel.component.css']
+    styleUrls : ['./performance-panel.component.scss']
 })
 export class PerformancePanelComponent { }

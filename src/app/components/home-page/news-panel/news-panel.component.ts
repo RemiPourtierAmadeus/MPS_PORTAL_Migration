@@ -3,7 +3,7 @@
  */
 
 import {Component, EventEmitter, Output} from '@angular/core';
-import {NewsItemComponent} from "../../news/news-item/news-item.component";
+import {NewsItemComponent} from "../../../mycommon/news-item/news-item.component";
 import {NewsModelComponent} from "../../models/news-model/news-model.component";
 import {ManageNewsService} from "../../../shared/services/manage-news.service";
 import {NewsConstantService} from "../../../shared/services/news-constant.service";
@@ -11,9 +11,7 @@ import {NewsConstantService} from "../../../shared/services/news-constant.servic
 @Component({
     selector: 'news-panel',
     templateUrl: './news-panel.component.html',
-    styleUrls : ['./news-panel.component.css'],
-    directives: [NewsItemComponent],
-    providers:[NewsConstantService]
+    styleUrls : ['./news-panel.component.scss'],
 })
 export class NewsPanelComponent {
 
