@@ -8,8 +8,9 @@ import {Input} from "@angular/core";
 import {Output} from "@angular/core";
 import {EventEmitter} from "@angular/core";
 import {NewsFormComponent} from "../news-form/news-form.component";
-import {ManageNewsService} from "../../../shared/services/src/manage-news.service";
-import {NewsConstantService} from "../../../shared/services/src/news-constant.service";
+import {ManageNewsService} from "../../../shared/services/manage-news.service";
+import {NewsConstantService} from "../../../shared/services/news-constant.service";
+
 
 @Component({
     selector: 'news-item',

@@ -3,11 +3,10 @@
  */
 
 import {Component} from '@angular/core';
-import {ManageNewsService} from "../../../shared/services/src/manage-news.service";
 import {NewsModelComponent} from "../../models/news-model/news-model.component";
 import {EventEmitter} from "@angular/core";
 import {Output} from "@angular/core";
-import {NewsConstantService} from "../../../shared/services/src/news-constant.service";
+import {NewsConstantService} from "../../../shared/services/news-constant.service";
 
 @Component({
     selector: 'news-form',

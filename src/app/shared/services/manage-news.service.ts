@@ -5,7 +5,7 @@
 import {Injectable} from '@angular/core';
 import {Http, Response, Headers, RequestOptions} from "@angular/http";
 import 'rxjs/add/operator/toPromise';
-import {NewsModelComponent} from "../../../components/models/news-model/news-model.component";
+import {NewsModelComponent} from "../../components/models/news-model/news-model.component";
 
 @Injectable()
 export class ManageNewsService {
