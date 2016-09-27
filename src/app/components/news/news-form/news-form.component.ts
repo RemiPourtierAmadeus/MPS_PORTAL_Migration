@@ -40,7 +40,7 @@ export class NewsFormComponent {
         this.subtypesValue= _newsConstantService.getSubTypes();
         this.newsFrom=_newsConstantService.getNewsFrom();
         this.status=_newsConstantService.getStatus();
-        this.showForm=false;
+        this.showForm=true;
     }
 
     hideShowForm(){

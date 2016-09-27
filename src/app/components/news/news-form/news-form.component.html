@@ -18,14 +18,14 @@
             <div class="large-9  medium-9 medium-offset-1 large-offset-1 columns end contentForm">
                 <label>Title
                     <input type="text" placeholder="" required
-                           [(ngModel)]="news.title" ngControl="title" #spy/>
+                           [(ngModel)]="news.title" [ngModelOptions]="{standalone:true}" ngControl="title" #spy/>
                 </label>
             </div>
         </div>
         <div class="row">
             <div class="large-9  medium-9 medium-offset-1 large-offset-1 columns end contentForm">
                 <label>Description
-                <textarea required name="message" [(ngModel)]="news.content"
+                <textarea required name="message" [(ngModel)]="news.content" [ngModelOptions]="{standalone:true}"
                           ngControl="news" #spy rows="5" cols="30">
                 </textarea>
                 </label>
@@ -34,28 +34,28 @@
         <div class="row">
             <div class="large-2 large-offset-1 medium-4 medium-offset-1  small-6 columns rowSelect">
                 <label> Type
-                    <select [(ngModel)]="news.type" required>
-                        <option *ngFor="let type of typesValue" ng-value="type">{{type}}</option>
+                    <select [(ngModel)]="news.type" required [ngModelOptions]="{standalone:true}">
+                        <option *ngFor="let type of typesValue" ng-value="type" >{{type}}</option>
                     </select>
                 </label>
             </div>
             <div class="large-1 medium-4 large-offset-1 medium-offset-1 small-6 columns rowSelect">
                 <label> Subtype
-                    <select [(ngModel)]="news.subtype" required>
+                    <select [(ngModel)]="news.subtype" required [ngModelOptions]="{standalone:true}">
                         <option *ngFor="let subtypes of subtypesValue" ng-value="subtypes">{{subtypes}}</option>
                     </select>
                 </label>
             </div>
             <div class="large-2 medium-3 medium-4 medium-offset-1 large-offset-1 small-6 columns rowSelect">
                 <label> From
-                    <select [(ngModel)]="news.newsFrom" required>
+                    <select [(ngModel)]="news.newsFrom" required [ngModelOptions]="{standalone:true}">
                         <option *ngFor="let from of newsFrom" ng-value="from">{{from}}</option>
                     </select>
                 </label>
             </div>
             <div class="large-2 medium-4 large-offset-0 medium-offset-1 small-6 columns end checkBoxDiv">
                 <label>Status</label>
-                <select [(ngModel)]="news.state" required>
+                <select [(ngModel)]="news.state" required [ngModelOptions]="{standalone:true}">
                     <option *ngFor="let currentStatus of status" ng-value="currentStatus">{{currentStatus}}</option>
                 </select>
             </div>
