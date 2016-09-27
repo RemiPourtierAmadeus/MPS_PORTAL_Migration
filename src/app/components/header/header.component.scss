@@ -1,4 +1,6 @@
-@import '../../../styles/variables';
+@import '../../shared/styles/variables';
+@import '../../shared/styles/main';
+
 
 .menuItem, h1{
   color: $menuFontColor;

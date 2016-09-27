@@ -10,7 +10,6 @@ import {NewsConstantService} from "../../../shared/services/news-constant.servic
 
 @Component({
     selector: 'news-form',
-    moduleId: module.id,
     templateUrl: './news-form.component.html',
     providers: [
         NewsConstantService

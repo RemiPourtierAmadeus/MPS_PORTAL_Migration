@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {ConnectionContentModule} from "./components/connection/connection-content/connection-content.module";
 import {HomeModule} from "./components/home-page/home/home.module";
+import {NewsModule} from "./components/news/news/news.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {HomeModule} from "./components/home-page/home/home.module";
     FormsModule,
     HttpModule,
     ConnectionContentModule,
-    HomeModule
+    HomeModule,
+    NewsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
