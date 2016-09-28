@@ -2,7 +2,7 @@
  * Service ManageMetricsService
  */
 import {Injectable} from '@angular/core';
-import {METRICSITEM} from "../../../mocks/mock-metrics";
+import {METRICSITEM} from "../../mocks/mock-metrics";
 
 @Injectable()
 export class ManageMetricsService {

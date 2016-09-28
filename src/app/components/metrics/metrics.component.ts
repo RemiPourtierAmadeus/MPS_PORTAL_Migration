@@ -3,16 +3,12 @@
  */
 
 import {Component, Output, EventEmitter} from '@angular/core';
-import {PanelComponent} from "./panel/panel.component";
-import {ManageMetricsService} from "../../shared/services/src/metrics/manage-metrics.service";
+import {ManageMetricsService} from "../../shared/services/metrics/manage-metrics.service";
 
 @Component({
     selector: 'metrics',
-    moduleId: module.id,
     templateUrl: './metrics.component.html',
-    styleUrls : ['./metrics.component.css'],
-    directives : [PanelComponent],
-    providers: [ManageMetricsService]
+    styleUrls : ['./metrics.component.scss']
 })
 export class MetricsComponent {
 

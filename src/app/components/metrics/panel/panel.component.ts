@@ -6,9 +6,8 @@ import {Component, Input, EventEmitter, Output} from '@angular/core';
 import {} from '../../../../assets/metrics/'
 @Component({
     selector: 'm-panel',
-    moduleId: module.id,
     templateUrl: './panel.component.html',
-    styleUrls: ['./panel.component.css']
+    styleUrls: ['./panel.component.scss']
 })
 export class PanelComponent {
 

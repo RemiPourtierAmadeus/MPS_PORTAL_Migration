@@ -8,6 +8,7 @@ import {ConnectionContentModule} from "./components/connection/connection-conten
 import {HomeModule} from "./components/home-page/home/home.module";
 import {NewsModule} from "./components/news/news/news.module";
 import {MyCommonModule} from "./mycommon/mycommon.module";
+import {MetricsModule} from "./components/metrics/metrics.module";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import {MyCommonModule} from "./mycommon/mycommon.module";
     FormsModule,
     HttpModule,
     ConnectionContentModule,
-    HomeModule, NewsModule
+    HomeModule,
+    NewsModule,
+    MetricsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
