@@ -1,8 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from "@angular/core";
 
-import { AboutRoutes } from './components/+about/index';
-import { HomeRoutes } from './components/+home/index';
 
 /**
  * app.routing.ts is the file used to define application routes. Routes tell the router which views to display

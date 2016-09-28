@@ -8,7 +8,7 @@ import {NewsItemComponent} from "./news-item/news-item.component";
     CommonModule, FormsModule, ReactiveFormsModule
   ],
   declarations: [ NewsItemComponent ],
-  exports:[NewsItemComponent, CommonModule, FormsModule],
+  exports:[NewsItemComponent],
   providers: []
 })
 export class MyCommonModule { }

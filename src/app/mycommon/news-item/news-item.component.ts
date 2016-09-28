@@ -10,7 +10,6 @@ import {NewsModelComponent} from "../../components/models/news-model/news-model.
 import {ManageNewsService} from "../../shared/services/manage-news.service";
 import {NewsConstantService} from "../../shared/services/news-constant.service";
 
-
 @Component({
     selector: 'news-item',
     templateUrl: './news-item.component.html',
